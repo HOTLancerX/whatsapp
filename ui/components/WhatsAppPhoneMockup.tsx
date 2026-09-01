@@ -69,7 +69,7 @@ export default function WhatsAppPhoneMockup({
                 {/* WhatsApp Header */}
                 <div className="bg-main p-3 flex items-center justify-between text-white shrink-0 shadow-md">
                     <div className="flex items-center gap-2">
-                        <button type="button" className="text-slate-300 hover:text-white">
+                        <button type="button" className="text-white hover:text-white">
                             <Icon icon="solar:arrow-left-linear" width={20} />
                         </button>
                         <div className="relative">
@@ -84,14 +84,14 @@ export default function WhatsAppPhoneMockup({
                         </div>
                         <div className="leading-tight overflow-hidden">
                             <div className="flex items-center gap-1">
-                                <p className="font-semibold text-xs text-slate-100 truncate max-w-32.5">{contactName}</p>
+                                <p className="font-semibold text-xs text-white truncate max-w-32.5">{contactName}</p>
                                 {verified && <Icon icon="solar:verified-check-bold" width={12} className="text-emerald-400 shrink-0" />}
                             </div>
                             <p className="text-[10px] text-emerald-400 font-normal truncate">online • Official Business</p>
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-3 text-slate-300">
+                    <div className="flex items-center gap-3 text-white">
                         <Icon icon="solar:videocamera-record-bold" width={17} />
                         <Icon icon="solar:phone-bold" width={16} />
                         <Icon icon="solar:menu-dots-bold" width={16} />

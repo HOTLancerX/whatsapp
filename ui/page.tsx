@@ -40,7 +40,7 @@ export default function WhatsAppAdminPage() {
     ] as const;
 
     return (
-        <div className="space-y-6 py-12">
+        <div className="space-y-6">
             {/* Top Navigation Bar */}
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-200 dark:border-slate-800 pb-4">
                 <div className="flex items-center gap-3">
@@ -50,11 +50,8 @@ export default function WhatsAppAdminPage() {
                     <div>
                         <div className="flex items-center gap-2">
                             <h1 className="text-xl font-extrabold text-slate-900 dark:text-white tracking-tight">
-                                WhatsApp Auto-Reply & Carousel Bot
+                                WhatsApp Auto-Reply Bot
                             </h1>
-                            <span className="bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold px-2 py-0.5 rounded-full border border-emerald-500/20">
-                                v1.0.0
-                            </span>
                         </div>
                         <p className="text-xs text-slate-500 dark:text-slate-400">
                             Multi-account WhatsApp customer support, automated catalog retrieval & interactive product carousels.
